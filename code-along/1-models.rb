@@ -57,3 +57,9 @@ new_company.name = "Tesla, Inc."
 new_company.url = "https://tesla.com"
 new_company.city = "Palo Alto"
 new_company.state = "CA"
+new_company.save
+
+puts Company.all.inspect
+# Apple id 31
+# amazon id 32
+# tesla id 33
