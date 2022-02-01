@@ -3,6 +3,19 @@
 # should be the top-level directory (i.e. /workspace/your-app/) and then run:
 # rails runner code-along/0-classes.rb
 
+brians_favorite_food = "tacos"
+kellys_favorite_food = "sushi"
+puts brians_favorite_food
+puts kellys_favorite_food
+
 # String Class
+class Dog
+    def speak
+        puts "Woof"
+    end
+end
+
+jenkins = Dog.new
+jenkins.speak
 
 # String Methods
